@@ -11,7 +11,7 @@ navToggle.addEventListener("click" , function(){
   const prevBtnEl = document.querySelector('.prev');
   const imgEls = document.querySelectorAll('.banner img');
   let activeIndex=0;
-  imgEls[activeIndex].classList.add('show');
+  
   nextBtnEl.addEventListener('click',()=>{
     imgEls[activeIndex].classList.remove('show')
     activeIndex++

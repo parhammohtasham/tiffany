@@ -136,12 +136,12 @@ slider
 
 .prev {
     right: 65%;
-    z-index: 50;
+    
 }
 
 .next {
     left: 65%;
-    z-index: 50;
+    
 }
 
 .show {
